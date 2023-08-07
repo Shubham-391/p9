@@ -1,0 +1,130 @@
+@import url(/assets/css/root.css);
+@import url(/assets/css/media.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-d-column {
+    flex-direction: column;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.bg {
+    background-image: url(/assets/images/Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+header {
+    max-width: 994px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.htext {
+    color: var(--white);
+    font-family: DM Sans;
+    font-size: var(--s);
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 26px; */
+}
+
+.startup {
+    color: var(--white);
+    font-family: DM Sans;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    letter-spacing: -0.293px;
+}
+
+.button1 {
+    width: 100px;
+    height: 40.104px;
+    border-radius: 100px;
+    background: var(--bg-cyan);
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    max-width: 854px;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.mtext {
+    color: var(--white);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: var(--l);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    height: 211px;
+}
+
+.mt-67 {
+    margin-top: 67px;
+}
+
+.button2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background: var(--red);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 86px 0 72px 0;
+    cursor: pointer;
+}
+
+.text {
+    color: var(--white);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: var(--s);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 513px;
+    height: 73px;
+}
+.pl-7{
+    padding-left: 7px;
+}

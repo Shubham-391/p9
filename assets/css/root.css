@@ -1,0 +1,13 @@
+:root {
+    /* font size */
+    --s: 18px;
+    --m: 24px;
+    --l: 58px;
+
+    /* color */
+    --white: white;
+
+    /* bg-color */
+    --bg-cyan: #25DAC5;
+    --red: #EA3223;
+}
